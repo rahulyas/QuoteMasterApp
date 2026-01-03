@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quote Master</string>
+    <string name="quote_header">Quote Master</string>
+    <string name="sub_text">Create your daily quote by AI powered</string>
+</resources>

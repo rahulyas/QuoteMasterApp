@@ -1,0 +1,190 @@
+[versions]
+accompanistInsets = "0.28.0"
+accompanistPermissions = "0.34.0"
+agp = "8.7.3"
+cameraCore = "1.4.2"
+cameraLifecycleVersion = "1.3.0"
+cameraViewVersion = "1.3.0"
+coilSvg = "2.5.0"
+coreSplashscreen = "1.0.1"
+guava = "31.1-android"
+kotlin = "2.0.0"
+activityCompose = "1.10.1"
+composeBom = "2024.04.01"
+foundationAndroid = "1.7.5"
+foundationLayoutAndroid = "1.7.5"
+mockk = "1.13.5"
+turbine = "1.0.0"
+uiAndroid = "1.7.6"
+uiGraphicsAndroid = "1.7.5"
+material = "1.12.0"
+navigationCompose = "2.8.3"
+composeTesting = "1.0.0-alpha04"
+coreKtx = "1.16.0"
+lifecycleRuntimeKtx = "2.8.7"
+datastorePreferences = "1.1.6"
+daggerHilt = "2.49"
+daggerHiltCompose = "1.2.0"
+hiltCommon = "1.2.0"
+hiltCompiler = "1.1.0"
+hiltWork = "1.1.0"
+kotlinxSerializationJson = "1.7.1"
+workRuntimeKtx = "2.9.0"
+coilCompose = "2.5.0"
+playServicesAuth = "21.3.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+rules = "1.6.1"
+core = "1.47.0"
+gamesActivity = "4.0.0"
+devToolsKsp = "2.0.10-1.0.24"
+appcompat = "1.7.0"
+firebaseCrashlyticsBuildtools = "3.0.4"
+retrofit = "2.9.0"
+converterGson = "2.9.0"
+cameraView = "1.4.2"
+cameraLifecycle = "1.4.2"
+room = "2.6.1"
+glide = "4.16.0"
+ksp = "4.16.0"
+uiViewbinding = "1.8.3"
+
+# LIBRARIES
+[libraries]
+
+accompanist-insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanistInsets" }
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPermissions" }
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanistPermissions" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
+accompanist-placeholder-material = { module = "com.google.accompanist:accompanist-placeholder-material", version.ref = "accompanistPermissions" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistPermissions" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCore" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
+androidx-camera-lifecycle-v130 = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraLifecycleVersion" }
+androidx-camera-view-v130 = { module = "androidx.camera:camera-view", version.ref = "cameraViewVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-material-extended-icon = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundationAndroid" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "uiAndroid" }
+androidx-ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "uiGraphicsAndroid" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+coil-svg = { module = "io.coil-kt:coil-svg", version.ref = "coilSvg" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+com-google-dagger-hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
+com-google-dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "daggerHilt" }
+com-google-dagger-hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "daggerHilt" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "daggerHiltCompose" }
+androidx-hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltCompiler" }
+androidx-hilt-common = { group = "androidx.hilt", name = "hilt-common", version.ref = "hiltCommon" }
+androidx-hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltWork" }
+
+#roomDatabase
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-pagination = { group = "androidx.room", name = "room-paging", version.ref = "room" }
+
+# WorkManager
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+
+# Coil
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coilCompose" }
+
+#Glide
+glide-ksp = { module = "com.github.bumptech.glide:ksp", version.ref = "ksp" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+
+
+#Retrofit
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+
+# Serialization
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+
+# Misc
+core = { group = "com.google.ar", name = "core", version.ref = "core" }
+androidx-games-activity = { group = "androidx.games", name = "games-activity", version.ref = "gamesActivity" }
+androidx-compose-testing = { group = "androidx.xr.compose", name = "compose-testing", version.ref = "composeTesting" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraView" }
+androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraLifecycle" }
+androidx-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding", version.ref = "uiViewbinding" }
+
+# PLUGINS
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+devToolsKspGoogle = { id = "com.google.devtools.ksp", version.ref = "devToolsKsp" }
+daggerHiltAndroid = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+
+# BUNDLES
+[bundles]
+
+# Compose Essentials
+compose = [
+    "androidx-activity-compose",
+    "androidx-lifecycle-runtime-ktx",
+    "androidx-lifecycle-viewmodel-ktx",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling",
+    "androidx-ui-tooling-preview",
+    "androidx-material3",
+    "material",
+    "androidx-navigation-compose",
+    "androidx-material-extended-icon"
+]
+
+# Testing Dependencies
+testing = [
+    "junit",
+    "androidx-junit",
+    "androidx-espresso-core",
+    "androidx-ui-test-manifest",
+    "androidx-ui-test-junit4"
+]
+
+# Dagger Hilt Bundle
+daggerHilt = [
+    "com-google-dagger-hilt-android",
+    "androidx-hilt-navigation-compose",
+    "com-google-dagger-hilt-android-testing"
+]
+
+# RoomDB Bundle
+room = [
+    "androidx-room-ktx",
+    "androidx-room-runtime",
+    "androidx-room-pagination"
+]
